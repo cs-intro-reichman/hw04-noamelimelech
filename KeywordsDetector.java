@@ -31,7 +31,7 @@ public class KeywordsDetector {
             for(int j=0;j<keywordslenght;j++){
                 String key = keywords[j];
                 String lowerkey = key.toLowerCase();
-                if (lowersen.contains(lowersen)) {
+                if (lowersen.contains(lowerkey)) {
                     System.out.println(sen);
                     break;
                 }
